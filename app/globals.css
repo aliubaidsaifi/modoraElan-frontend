@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --sand:#f4f1ec; --ink:#1c1917; --clay:#9a7b62; }
+html { -webkit-font-smoothing: antialiased; }
+body { background: var(--sand); color: var(--ink); }
+
+/* render Blogger HTML content nicely */
+.blog-content p { margin: 1rem 0; line-height: 1.8; }
+.blog-content img { border-radius: 0.5rem; margin: 1.5rem 0; max-width: 100%; height: auto; }
+.blog-content h2, .blog-content h3 { font-family: var(--font-display); margin-top: 2rem; }

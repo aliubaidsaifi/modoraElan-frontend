@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Modora Élan ME monogram">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;display=swap');
+      .w { font-family: 'Cormorant Garamond', Didot, 'Bodoni MT', Georgia, serif; }
+    </style>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="#9a7b62"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#f4f1ec" stroke-width="1.5" stroke-opacity="0.55"/>
+  <text class="w" x="100" y="136" text-anchor="middle" font-size="94" font-weight="500" letter-spacing="2" fill="#f4f1ec">MÉ</text>
+</svg>
