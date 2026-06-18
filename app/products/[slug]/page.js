@@ -1,6 +1,6 @@
 import { api } from "@/lib/api";
 import { notFound } from "next/navigation";
-import ProductDetail from "@/components/product/ProductDetail";
+import ProductDetail from "@/components/layout/product/ProductDetail";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;

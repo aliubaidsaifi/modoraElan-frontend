@@ -1,5 +1,5 @@
 import { api } from "@/lib/api";
-import ProductGrid from "@/components/product/ProductGrid";
+import ProductGrid from "@/components/layout/product/ProductGrid";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
